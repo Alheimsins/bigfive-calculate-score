@@ -1,0 +1,22 @@
+[
+  {
+    "domain": "A",
+    "facet": "1",
+    "score": "3"
+  },
+  {
+    "domain": "A",
+    "facet": "1",
+    "score": "3"
+  },
+  {
+    "domain": "E",
+    "facet": "1",
+    "score": "3"
+  },
+  {
+    "domain": "E",
+    "facet": "2",
+    "score": "3"
+  }
+]

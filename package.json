@@ -1,0 +1,52 @@
+{
+  "name": "@alheimsins/bigfive-calculate-score",
+  "description": "Calculate score for big five tests",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "publish": "npm publish --access=public"
+  },
+  "keywords": [
+    "bigfive",
+    "personality",
+    "calculate score",
+    "alheimsins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alheimsins/bigfive-calculate-score.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alheimsins/bigfive-calculate-score/issues"
+  },
+  "homepage": "https://github.com/alheimsins/bigfive-calculate-score#readme",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.1",
+    "nsp": "3.2.1",
+    "nyc": "11.8.0",
+    "standard": "11.0.1"
+  }
+}

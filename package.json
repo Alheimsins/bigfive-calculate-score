@@ -25,8 +25,7 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
-    "publish": "npm publish --access=public"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "bigfive",

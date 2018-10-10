@@ -3,6 +3,13 @@
   "description": "Calculate score for big five tests",
   "version": "1.0.0",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",

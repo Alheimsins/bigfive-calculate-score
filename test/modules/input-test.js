@@ -15,7 +15,7 @@ test('throws if missing input', t => {
 test('throws if not input.answers ', t => {
   const expectedErrorMessage = 'Missing required input data.answers'
   const error = t.throws(() => {
-    calculateScore({answers: false})
+    calculateScore({ answers: false })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)
@@ -24,7 +24,7 @@ test('throws if not input.answers ', t => {
 test('throws if not input.answers ', t => {
   const expectedErrorMessage = 'Wrong format. Data.answers must be an array'
   const error = t.throws(() => {
-    calculateScore({answers: 'wrong'})
+    calculateScore({ answers: 'wrong' })
   }, Error)
 
   t.is(error.message, expectedErrorMessage)

@@ -15,7 +15,7 @@ const calculateResult = (score, count) => {
   return result
 }
 
-const result = calculateScore({answers: answers, calculateResult: calculateResult})
+const result = calculateScore({ answers: answers, calculateResult: calculateResult })
 
 test('validates results from custom calculateResult', t => {
   t.deepEqual(result, expectedResult, 'So deep, so equal')

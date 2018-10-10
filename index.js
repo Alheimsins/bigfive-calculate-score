@@ -13,5 +13,5 @@ module.exports = data => {
     throw new Error('Wrong format. Data.answers must be an array')
   }
 
-  return reduceFactors({answers: data.answers, calculateResult: data.calculateResult})
+  return reduceFactors({ answers: data.answers, calculateResult: data.calculateResult })
 }

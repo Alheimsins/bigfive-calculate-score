@@ -21,7 +21,7 @@ test('throws if not input.answers ', t => {
   t.is(error.message, expectedErrorMessage)
 })
 
-test('throws if not input.answers ', t => {
+test('throws if input.answers is wrong format', t => {
   const expectedErrorMessage = 'Wrong format. Data.answers must be an array'
   const error = t.throws(() => {
     calculateScore({ answers: 'wrong' })

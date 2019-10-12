@@ -1,7 +1,7 @@
 {
   "name": "@alheimsins/bigfive-calculate-score",
   "description": "Calculate score for big five tests",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

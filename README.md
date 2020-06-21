@@ -189,7 +189,8 @@ Returns
 ```
 
 ## Related
-- [bigfive-web](https://github.com/Alheimsins/bigfive-web) Website for taking personality tests
+
+- [bigfive-web](https://github.com/rubynor/bigfive-web) Website for five factor model of personality
 - [b5-web](https://github.com/zrrrzzt/b5-web) Static website for big five tests
 
 ## License

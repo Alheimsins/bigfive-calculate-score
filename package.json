@@ -24,10 +24,10 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
-    "test": "standard && npm audit && ava",
+    "test": "standard && ava",
     "test-offline": "standard && ava",
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",

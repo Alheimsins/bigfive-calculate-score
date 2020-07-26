@@ -199,6 +199,6 @@ Returns
 
 ## About
 
-Created with <3 by [Alheimsins](https://github.com/Alheimsins)
+Created by with ❤ for [Alheimsins](https://alheimsins.net)
 
-![Alheimsins symbol](https://file-qwoleuymtm.now.sh "Alheimsins symbol")
+<img src="https://image.ibb.co/dPH08G/logo_black.png" alt="Alhemsins logo" height="150px" width="150px" />

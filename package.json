@@ -49,9 +49,9 @@
   },
   "homepage": "https://github.com/alheimsins/bigfive-calculate-score#readme",
   "devDependencies": {
-    "ava": "3.10.1",
+    "ava": "3.15.0",
     "coveralls": "3.1.0",
     "nyc": "15.1.0",
-    "standard": "14.3.4"
+    "standard": "16.0.3"
   }
 }

@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/Alheimsins/bigfive-calculate-score.svg?branch=master)](https://travis-ci.com/Alheimsins/bigfive-calculate-score)
 [![Coverage Status](https://coveralls.io/repos/Alheimsins/bigfive-calculate-score/badge.svg?branch=master&service=github)](https://coveralls.io/github/Alheimsins/bigfive-calculate-score?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
